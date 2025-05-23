@@ -11,11 +11,11 @@ const Hero = () => {
           Expertise in project lifecycle, financing, and development solutions.
         </p>
       </div>
-      <div className="w-full md:w-1/2 flex justify-center items-center">
+      <div className="w-full md:w-1/2 flex justify-center items-center md:px-12">
         <img
           src={HeroImage}
           alt="Hero Image"
-          className="w-full h-64 sm:h-80 md:h-96 lg:h-[500px] object-contain md:object-cover rounded-4xl"
+          className="w-full  h-80 sm:h-80 md:h-96 lg:h-[500px] object-contain md:object-cover rounded-2xl"
         />
       </div>
     </div>
