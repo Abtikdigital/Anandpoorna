@@ -4,7 +4,7 @@ import LogoImage from "../assets/logo/Logo.png";
 const Footer = () => {
   return (
     <footer className="bg-[#FDF8EE] text-black font-sans">
-      <div className=" mx-auto px-8  py-8 md:px-12">
+      <div className=" mx-auto px-8  py-8 md:px-20">
         {/* Logo Section */}
         <div className="mb-8">
           <img

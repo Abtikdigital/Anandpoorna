@@ -51,12 +51,12 @@ const Navbar = () => {
   }, []);
 
   return (<>
-    <nav className="sticky top-0 px-4 lg:px-12 z-50 bg-gradient-to-r from-[#FDF8EE] to-[#FFF4E3] shadow-lg rounded-lg md:border-none font-sans">
+    <nav className="sticky top-0 px-4 lg:px-20 z-50 bg-gradient-to-r from-[#FDF8EE] to-[#FFF4E3] shadow-lg rounded-lg md:border-none font-sans">
       <div className=" ">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
-            <img src={LogoImage} alt="Logo" className="h-10 w-auto drop-shadow-md" />
+            <img src={LogoImage} alt="Logo" className="h-12 w-auto drop-shadow-md" />
           </div>
 
           {/* Desktop Menu */}
