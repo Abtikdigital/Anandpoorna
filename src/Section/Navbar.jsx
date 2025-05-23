@@ -50,9 +50,9 @@ const Navbar = () => {
     };
   }, []);
 
-  return (
+  return (<>
     <nav className="sticky top-0 px-4 lg:px-12 z-50 bg-gradient-to-r from-[#FDF8EE] to-[#FFF4E3] shadow-lg rounded-lg md:border-none font-sans">
-      <div className="max-w-7xl mx-auto ">
+      <div className=" ">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="flex items-center">
@@ -213,6 +213,7 @@ const Navbar = () => {
         )}
       </div>
     </nav>
+    </>
   );
 };
 
