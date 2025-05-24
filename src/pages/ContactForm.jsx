@@ -1,11 +1,11 @@
 import BackgroundImage from "../assets/ContactForm/backGroundImage.jpeg";
-
+import LeftSectionImage from "../assets/ContactForm/leftSectionImage.png"
 const ContactForm = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-20 py-10">
       <div
-        style={{ backgroundImage: `url(${BackgroundImage})` }}
-        className="bg-cover bg-no-repeat bg-center rounded-xl shadow-lg p-6 sm:p-10 lg:p-12"
+        style={{ backgroundImage: `url(${BackgroundImage})`,backgroundSize:"100% 100%" }}
+        className=" bg-no-repeat bg-center rounded-xl shadow-lg p-6 sm:p-10 lg:p-12"
       >
         <h2 className="text-center text-4xl text-white font-semibold mb-10">
           Join <span className="text-[#FFEDC8]">With Us</span>
@@ -13,11 +13,11 @@ const ContactForm = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           {/* Image section */}
-          <div className="hidden lg:block shadow-2xl rounded-xl overflow-hidden">
+          <div className="hidden lg:flex justify-center items-center h-96  shadow-2xl rounded-xl overflow-hidden bg-[#D9D9D9] ">
             <img
-              src={BackgroundImage}
+              src={LeftSectionImage}
               alt="Contact"
-              className="w-full h-full object-cover"
+              className=" object-fill"
             />
           </div>
 

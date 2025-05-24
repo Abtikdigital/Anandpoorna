@@ -1,7 +1,7 @@
 import Image1 from "../assets/OurProjects/Image1.png";
 
-const OurProject = () => {
-  const ourProjectData = [
+const WhatWeDo = () => {
+  const whatWeData = [
     {
       img: Image1,
       title: "Lorem ipsum dolor sit amet",
@@ -25,7 +25,7 @@ const OurProject = () => {
     <div div className="px-4 sm:px-6 lg:px-20 py-6 sm:py-8 lg:py-10">
       <div className="text-center">
         <h2 className=" text-5xl font-semibold">
-          Our <span className="text-[#C57C2C]">Projects </span>
+          What  <span className="text-[#C57C2C]">We </span> Do
         </h2>
         <p className="text-[#8A8A8A] text-xl">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum,
@@ -34,7 +34,7 @@ const OurProject = () => {
       </div>
 
       <div className="grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 col-auto gap-6 justify-center items-center">
-        {ourProjectData.map((data) => (
+        {whatWeData.map((data) => (
           <div className=" bg-white shadow-xl rounded-2xl p-4 relative">
             <div>
               <img src={data.img} />
@@ -55,4 +55,4 @@ const OurProject = () => {
   );
 };
 
-export default OurProject;
+export default WhatWeDo;
