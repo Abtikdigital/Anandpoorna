@@ -71,7 +71,7 @@ const Testimonial = () => {
   }, [visibleCount, reviewData.length]);
 
   return (
-    <div id="testimonials" className="px-4 sm:px-6 lg:px-20 py-10 bg-[#FFFBEF]">
+    <div id="testimonials" className="px-4 sm:px-6 lg:px-20 py-10 ">
       <h2 className="text-center text-4xl font-semibold mb-10">
         What Our <span className="text-[#C57C2C]">Client's Say</span>
       </h2>

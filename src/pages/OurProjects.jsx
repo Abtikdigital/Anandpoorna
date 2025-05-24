@@ -5,17 +5,17 @@ const OurProject = () => {
     {
       img: Image1,
       title: "Lorem ipsum dolor sit amet",
-      description: "High-quality design and development for modern platforms.",
+      description: "High-quality design and development for modern platforms.dsadsa",
     },
     {
       img: Image1,
       title: "Scalable backend solutions",
-      description: "Robust, secure APIs to power your digital products.",
+      description: "Robust, secure APIs to power your digital products.  ggdas",
     },
     {
       img: Image1,
       title: "Responsive frontend interfaces",
-      description: "Intuitive, fast UIs built with React and Tailwind CSS.",
+      description: "Intuitive, fast UIs built with React and Tailwind CSS.  fgfds ds",
     },
   ];
 
