@@ -92,7 +92,7 @@ const Testimonial = () => {
               className="w-full md:w-1/2 lg:w-1/3 p-4"
               style={{ flex: `0 0 ${100 / reviewData.length}%` }}
             >
-              <div className="bg-[#FFEDC8] rounded-xl shadow-lg p-6 h-full flex flex-col justify-between animate-fade-in">
+              <div className="bg-[#FFEDC8]   rounded-xl shadow-lg p-6 h-full flex flex-col justify-between animate-fade-in">
                 <div className="flex-1 mb-2">
                   <p className="text-[#666] text-base italic mb-4 line-clamp-3">
                     “{data.reviewText}”

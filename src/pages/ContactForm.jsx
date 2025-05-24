@@ -22,26 +22,26 @@ const ContactForm = () => {
           </div>
 
           {/* Form section */}
-          <form className="flex flex-col gap-4">
+          <form className="flex flex-col gap-4" onSubmit={(e)=>{e.preventDefault()}}>
             <input
               placeholder="Enter Your Name"
               type="text"
-              className="bg-[#FFEDC8] border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
+              className="bg-[#FFEDC8] px-4 border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
             />
             <input
               placeholder="Enter Your Email"
               type="email"
-              className="bg-[#FFEDC8] border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
+              className="bg-[#FFEDC8] px-4 border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
             />
             <input
               placeholder="Enter Your Number"
               type="tel"
-              className="bg-[#FFEDC8] border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
+              className="bg-[#FFEDC8] px-4 border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
             />
             <textarea
               placeholder="Enter Your Message"
               rows={5}
-              className="bg-[#FFEDC8] resize-none border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
+              className="bg-[#FFEDC8] px-4 resize-none border-none focus:outline-none w-full rounded-lg p-2.5 text-[#707070] font-semibold"
             ></textarea>
             <button
               type="submit"
