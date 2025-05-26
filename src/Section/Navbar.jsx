@@ -15,9 +15,9 @@ const Navbar = () => {
       title: "Services",
       path: "",
       subServices: [
-        { title: "Consulting", path: "/services/consulting" },
-        { title: "Development", path: "/services/development" },
-        { title: "Support", path: "/services/support" },
+        { title: "Real Estate", path: "/services/real-estate" },
+        { title: "Equity Investment", path: "/services/equity-investment" },
+       
       ],
     },
     { title: "Projects", path: "/projects" },
@@ -91,7 +91,7 @@ const Navbar = () => {
                   }`}
                 ></span>
                 {data.subServices && isServicesOpen && (
-                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-3 w-40 bg-[#FDF8EE] shadow-xl rounded-lg flex flex-col items-center">
+                  <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-3 w-44 bg-[#FDF8EE] shadow-xl rounded-lg flex flex-col items-center">
                     {data.subServices.map((sub) => (
                       <NavLink
                         key={sub.title}

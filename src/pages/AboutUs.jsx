@@ -23,7 +23,7 @@ const AboutUs = () => {
 
   return (
     <div className="flex flex-col px-4 sm:px-6 lg:px-20 py-6 sm:py-8 lg:py-10 bg-[#FDF8EE]">
-      <h2 className="text-[#C57C2C] text-3xl md:text-5xl font-semibold text-center mb-10">
+      <h2 className="text-[#C57C2C] text-4xl sm:text-5xl font-bold tracking-tight text-center mb-10">
         About Us
       </h2>
 

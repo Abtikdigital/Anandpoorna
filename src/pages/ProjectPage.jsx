@@ -24,11 +24,11 @@ const ProjectPage = () => {
 
   return (
     <Mainlayout>
-      <header className="text-center text-4xl font-semibold mb-12">
-        Our<span className="text-[#C57C2C]">Projects</span>
+      <header className="text-center  py-20 text-4xl sm:text-5xl font-bold tracking-tight bg-[#FDF8EE]">
+        Our<span className="text-[#C57C2C]"> Projects</span>
       </header>
 
-      <div className="space-y-16 px-4 sm:px-6 lg:px-20">
+      <div className="space-y-16 px-4 sm:px-6 lg:px-20 bg-[#FDF8EE]">
         {ourProjectData.map((section, index) => (
           <div
             key={index}
@@ -42,7 +42,7 @@ const ProjectPage = () => {
               className="w-full md:w-1/2 rounded-xl shadow-lg object-cover"
             />
             <div className="md:w-1/2 text-center md:text-left">
-              <h3 className="text-2xl font-semibold text-[#C57C2C] mb-2">
+              <h3 className=" text-[#C57C2C] mb-2 text-4xl sm:text-5xl font-bold tracking-tight">
                 {section.title}
               </h3>
               <p className="text-gray-700 text-base">{section.description}</p>
