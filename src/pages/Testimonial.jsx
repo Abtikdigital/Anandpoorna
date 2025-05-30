@@ -72,7 +72,7 @@ const Testimonial = () => {
 
   return (
     <div id="testimonials" className="px-4 sm:px-6 lg:px-20 py-10 ">
-      <h2 className="text-center  mb-10 text-4xl sm:text-5xl font-bold tracking-tight">
+      <h2 className="text-center  mb-10 text-4xl sm:text-5xl font-bold tracking-tight" style={{fontFamily:"Roboto Slab"}}>
         What Our <span className="text-[#C57C2C]">Client's Say</span>
       </h2>
 
@@ -105,7 +105,7 @@ const Testimonial = () => {
                     className="w-12 h-12 rounded-full object-cover"
                   />
                   <div className="truncate">
-                    <h3 className="font-semibold text-lg truncate">{data.name}</h3>
+                    <h3 className="font-semibold text-lg truncate" style={{fontFamily:"Roboto Slab"}}>{data.name}</h3>
                     <p className="text-sm text-gray-600 truncate">
                       {data.position}
                     </p>

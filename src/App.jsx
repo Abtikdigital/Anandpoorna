@@ -13,16 +13,16 @@ const EquityInvestment = lazy(() => import("./pages/EquityInvestment"));
 const ScrollToUp = lazy(() => import("./pages/ScrollToTop"));
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2700);
-  }, []);
+  // const [isLoading, setIsLoading] = useState(true);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 2700);
+  // }, []);
 
-  if (isLoading) {
-    return <Loader />;
-  }
+  // if (isLoading) {
+  //   return <Loader />;
+  // }
   return (
     <Suspense fallback={<Loader />}>
       <BrowserRouter>

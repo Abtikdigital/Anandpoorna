@@ -24,7 +24,7 @@ const OurProject = () => {
   return (
     <div className="px-4 sm:px-6 lg:px-20 py-8 sm:py-12 lg:py-16 bg-gray-50">
       <div className="text-center mb-10">
-        <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
+        <h2 className="text-4xl sm:text-5xl font-bold tracking-tight" style={{fontFamily:"Roboto Slab"}}>
           Our <span className="text-[#C57C2C]">Projects</span>
         </h2>
         <p className="text-gray-600 text-lg sm:text-xl mt-4  mx-auto">
@@ -46,7 +46,7 @@ const OurProject = () => {
               />
             </div>
             <div className="flex flex-col mt-4 h-[120px] overflow-hidden">
-              <h2 className="font-semibold text-xl text-gray-800 truncate">
+              <h2 className="font-semibold text-xl text-gray-800 truncate" style={{fontFamily:"Roboto Slab"}}>
                 {data.title}
               </h2>
               <p className="text-gray-600 text-base mt-2 line-clamp-3 overflow-hidden">

@@ -46,7 +46,7 @@ const ContactForm = () => {
         }}
         className="bg-no-repeat bg-center rounded-xl shadow-lg p-6 sm:p-10 lg:p-12"
       >
-        <h2 className="text-center  text-white  mb-10 text-4xl sm:text-5xl font-bold tracking-tight">
+        <h2 className="text-center  text-white  mb-10 text-4xl sm:text-5xl font-bold tracking-tight" style={{fontFamily:"Roboto Slab"}}>
           Join <span className="text-[#FFEDC8]">With Us</span>
         </h2>
 
@@ -60,6 +60,7 @@ const ContactForm = () => {
           <form
             className="flex flex-col gap-4"
             onSubmit={handleSubmit(onSubmit)}
+            style={{fontFamily:"Roboto Slab"}}
           >
             {/* Name */}
             <input

@@ -23,7 +23,7 @@ const AboutUs = () => {
 
   return (
     <div className="flex flex-col px-4 sm:px-6 lg:px-20 py-6 sm:py-8 lg:py-10 bg-[#FDF8EE]">
-      <h2 className="text-[#C57C2C] text-4xl sm:text-5xl font-bold tracking-tight text-center mb-10">
+      <h2 className="text-[#C57C2C] text-4xl sm:text-5xl font-bold tracking-tight text-center mb-10" style={{fontFamily:"Roboto Slab"}}>
         About Us
       </h2>
 
@@ -41,14 +41,14 @@ const AboutUs = () => {
             />
 
             <div className="absolute bottom-0 left-0 right-0 bg-[#C57C2C] text-white px-4 py-4 z-10 transition-all duration-500 group-hover:translate-y-full">
-              <h3 className="text-sm font-semibold truncate">{data.title}</h3>
+              <h3 className="text-xl font-semibold truncate" style={{fontFamily:"Roboto Slab"}}>{data.title}</h3>
               <p className="text-xs overflow-hidden whitespace-nowrap text-ellipsis">
                 {data.description}
               </p>
             </div>
 
             <div className="absolute inset-0 bg-[#C57C2C]/60 text-white flex flex-col justify-center items-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              <h3 className="text-xl font-bold mb-2">{data.title}</h3>
+              <h3 className="text-xl font-semibold mb-2" style={{fontFamily:"Roboto Slab"}}>{data.title}</h3>
               <p className="text-sm">{data.description}</p>
             </div>
           </div>

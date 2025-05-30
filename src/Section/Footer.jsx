@@ -46,7 +46,7 @@ const Footer = () => {
                     href="#"
                     className="flex items-center group justify-center w-10 h-10 rounded-full bg-[#F5E8D3] hover:bg-[#E8D9C2] transition-colors"
                   >
-                    <Facebook className="w-7 h-7    group-hover:text-[#B27332] " fill="white"  />
+                    <Facebook className="w-7 h-7    group-hover:text-[#B27332] " fill="white" />
                   </a>
                 </li>
                 <li className="cursor-pointer">
@@ -128,18 +128,18 @@ const Footer = () => {
               <ul className="space-y-2 text-[#606060]">
                 <li>
                   <a
-                    href="#"
+                    href="mailto:Anandpurna1008@gmail.com"
                     className="text-sm hover:underline hover:text-[#B97733] transition-colors"
                   >
-                    Anandpoorna123@gmail.com
+                    Anandpurna1008@gmail.com
                   </a>
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="tel:919310711095"
                     className="text-sm hover:underline hover:text-[#B97733] transition-colors"
                   >
-                    (+91) 9638689279
+                    (+91) 93107 11095
                   </a>
                 </li>
                 <li>

@@ -5,7 +5,6 @@ const Mainlayout = (props) => {
   return (
     <>
       <Navbar />
-
       {props.children}
       <Footer />
     </>
